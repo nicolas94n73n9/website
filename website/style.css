@@ -1,6 +1,5 @@
-
 body{
-    background-color: black;
+    background-color: rgb(33, 32, 32);
 }
 
 .container-navbar{
@@ -25,15 +24,16 @@ body{
     color: black;
     font-size; 30px;
     border-radius: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .li-navbar:hover{
     background-color: blue;
-    transition: .3s ease-in-out;
+    transition: .5s ease-in-out;
     transition-delay: .3s;
     border-radius: 13px;
-    font-size: 1.8rem;
-    font-weight: 500;
 }
 
 .a-navbar{
@@ -47,13 +47,16 @@ body{
 
 .container-footer{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 
 .h1-footer{
     color: blue;
-    font-size: 15px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .img-content{
@@ -63,6 +66,31 @@ body{
 
 .container-content{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
+}
+
+.container-footer1{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.h2-footer{
+    color: blue;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.img-content1{
+    width: 25%;
+    height: 20%;
+}
+
+.container-content1{
+    display: flex;
+    justify-content: right;
+    align-items: right;
 }
